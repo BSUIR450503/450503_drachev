@@ -1,0 +1,213 @@
+/**
+ * Styles for Number highlighting in screen mode
+ */
+@media screen
+{
+
+span.skype_c2c_print_container {
+    display: none !important;
+}
+
+span.skype_c2c_container img.skype_c2c_logo_img {
+    margin-right: 0.4em !important;
+    width: 1em !important;
+    height: 1em !important;
+    max-width: 24px !important;
+    min-width: 8px !important;
+    max-height: 24px !important;
+    min-height: 8px !important;
+    vertical-align: -1px !important;
+}
+
+span.skype_c2c_container, span.skype_c2c_container * {
+    color: #00AFFD !important;
+    font-size: 1em !important;
+    font-family: 'Helvetica Neue Regular', Helvetica, Arial, sans-serif !important;
+    font-weight: normal !important;
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    vertical-align: baseline !important;
+    width: auto !important;
+    background-attachment: scroll !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    background-position: 0px 0px ! important;
+    background-repeat: no-repeat !important;
+    border: 0px none !important;
+    border-color: #000000 !important;
+    border-style: none !important;
+    border-width: 0 !important;
+    border-left: 0 none #000000 !important;
+    border-top: 0 none #000000 !important;
+    border-right: 0 none #000000 !important;
+    border-bottom: 0 none #000000 !important;
+    border-left-color: #000000 !important;
+    border-left-style: none !important;
+    border-left-width: 0 !important;
+    border-top-color: #000000 !important;
+    border-top-style: none !important;
+    border-top-width: 0 !important;
+    border-right-color: #000000 !important;
+    border-right-style: none !important;
+    border-right-width: 0 !important;
+    border-bottom-color: #000000 !important;
+    border-bottom-style: none !important;
+    border-bottom-width: 0 !important;
+    border-collapse: separate !important;
+    bottom: auto !important;
+    clear: none !important;
+    clip: auto !important;
+    cursor: pointer !important;
+    display: inline !important;
+    float: none !important;
+    font-style: normal !important;
+    left: auto !important;
+    letter-spacing: 0 !important;
+    list-style-image: none !important;
+    list-style-position: outside !important;
+    list-style-type: disc !important;
+    overflow: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    padding: 0px 0px 0px 0px !important;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    page-break-after: auto !important;
+    page-break-before: auto !important;
+    page-break-inside: auto !important;
+    position: static !important;
+    right: auto !important;
+    table-layout: auto !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    text-indent: 0px !important;
+    text-transform: none !important;
+    text-shadow: none !important;
+    top: auto !important;
+    voice-family: inherit !important;
+    word-spacing: normal !important;
+    z-index: 0 !important;
+}
+
+span.skype_c2c_free_text_span {
+    display:inline !important;
+    font-weight: normal !important;
+    color: #EC008C !important;
+}
+
+span.skype_c2c_text_span:hover {
+    text-decoration:underline !important;
+}
+
+}
+
+/**
+ * Styles for Number highglighting in print mode
+ */
+@media print
+{
+
+span.skype_c2c_print_container {
+}
+
+span.skype_c2c_container {
+    display:none !important;
+}
+
+}
+
+/**
+ * Styles for Call menu in screen mode
+ */
+.skype_c2c_menu_container {
+    position: absolute !important;
+    z-index: 2147483647 !important;
+    background-color: #FFFFFF !important;
+    min-width: 200px !important;
+    padding: 0 !important;
+    border: 2px solid #00AFF0 !important;
+
+    font-family: 'Helvetica Neue Regular', 'Helvetica', 'Arial' !important;
+    font-size: 10pt !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    line-height: 1.4em !important;
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+.skype_c2c_menu_container div {
+    position: relative !important;
+    margin: 0 !important;
+    padding: 12px 0 7px 0 !important;
+    box-sizing: content-box !important;
+}
+
+.skype_c2c_menu_container a, .skype_c2c_menu_container span {
+    margin: 0 13px 0 13px !important;
+    white-space: nowrap !important;
+    border-style: none !important;
+    letter-spacing: 0 !important;
+    background-image: none !important;
+}
+
+.skype_c2c_menu_container div a {
+    color: #00AFF0 !important;
+    text-decoration: none !important;
+}
+
+.skype_c2c_menu_container div a:hover {
+    text-decoration: underline !important;
+}
+
+.skype_c2c_menu_container a:link, .skype_c2c_menu_container a:visited  {
+    color: #00AFF0 !important;
+}
+
+/**
+ * Call action
+ */
+div.skype_c2c_menu_click2call {
+    background-repeat: no-repeat !important;
+    background-position: 11px 11px !important;
+    padding-left: 25px !important;
+}
+
+/**
+ * Send SMS action
+ */
+.skype_c2c_menu_click2sms {
+    display: none;
+}
+
+.skype_c2c_mobile_active .skype_c2c_menu_click2sms {
+    display: block;
+}
+
+/**
+ * Toll free span text
+ */
+div.skype_c2c_menu_toll_info {
+    border-top: 1px solid #00AFF0 !important;
+    color: #939598 !important;
+}
+
+.skype_c2c_menu_toll_callcredit {
+    display: block !important;
+}
+
+.skype_c2c_menu_toll_free {
+    display: none !important;
+}
+
+.skype_c2c_free_active .skype_c2c_menu_toll_free {
+    display: block !important;
+}
+
+.skype_c2c_free_active .skype_c2c_menu_toll_callcredit {
+    display: none !important;
+}

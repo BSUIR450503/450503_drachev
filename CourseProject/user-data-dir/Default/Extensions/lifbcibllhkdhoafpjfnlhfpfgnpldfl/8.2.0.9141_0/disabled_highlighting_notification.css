@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI Local', 'Segoe WP', 'Segoe UI Web', Tahoma, 'Helvetica Neue', Helvetica, 'Meiryo UI', Meiryo, 'Arial Unicode MS', sans-serif;
+    float: left;
+    margin: 5px;
+    background: url('bgTexture.png') repeat;
+    font-size: 0.73em;
+    overflow:hidden;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+body img {
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    flex-shrink:0;
+}
+
+body .ffNotification {
+    margin: 5px;
+    color: #33353a;
+}
+
+body .notification {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}

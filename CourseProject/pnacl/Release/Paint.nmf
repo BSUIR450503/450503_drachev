@@ -1,0 +1,12 @@
+{
+  "program": {
+    "portable": {
+      "pnacl-translate": {
+        "url": "Paint.pexe"
+      },
+      "pnacl-debug": {
+        "url": "Paint_unstripped.bc"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+/**
+  * Chrome specific style for call menu
+  */
+
+/**
+  * Our extension id is fixed and known because we use the same chrome_ext.pem file
+  * during the build when making the crx file.
+  */
+.skype_c2c_menu_click2call {
+    background-image: url('chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/call_icon.png') !important;
+}
