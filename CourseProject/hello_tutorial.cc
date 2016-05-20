@@ -22,7 +22,7 @@
 
 namespace {
 
-static const int kMouseRadius = 20;
+static const int kMouseRadius = 2;
 
 uint8_t RandUint8(uint8_t min, uint8_t max) {
   uint64_t r = rand();
@@ -135,9 +135,9 @@ class Graphics2DInstance : public pp::Instance {
   void Update() {
     // Old-school fire technique cribbed from
     // http://ionicsolutions.net/2011/12/30/demo-fire-effect/
-    UpdateCoals();
+//    UpdateCoals();
     DrawMouse();
-    UpdateFlames();
+//    UpdateFlames();
   }
 
   void UpdateCoals() {

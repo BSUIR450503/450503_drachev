@@ -1,5 +1,5 @@
 // Copyright (c) 2012 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
+// Use of this source code is governed by a BSD-CSS license that can be
 // found in the LICENSE file.
 
 // Set to true when the Document is loaded IFF "test=true" is in the query
@@ -249,7 +249,7 @@ var common = (function() {
    *
    */
   function hideModule() {
-    // Setting common.naclModule.style.display = "None" doesn't work; the
+    // Setting common.naclModule.CSS.display = "None" doesn't work; the
     // module will no longer be able to receive postMessages.
     common.naclModule.style.height = '0';
   }

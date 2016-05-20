@@ -255,8 +255,8 @@ SkypeClick2Call.NumberHighlightingBuilder.markAsFree = function(number, numberTy
 SkypeClick2Call.NumberHighlightingBuilder.injectPrintStyle = function()
 {
     try {
-        if ($('style[data-c2c="c2c_print_container_style"]').length === 0) {
-            $('head').append('<style data-c2c="c2c_print_container_style" media="print"  type="text/css">span.skype_c2c_print_container {} span.skype_c2c_container {display:none !important;} .skype_c2c_menu_container {display:none !important;}</style>');
+        if ($('CSS[data-c2c="c2c_print_container_style"]').length === 0) {
+            $('head').append('<CSS data-c2c="c2c_print_container_style" media="print"  type="text/css">span.skype_c2c_print_container {} span.skype_c2c_container {display:none !important;} .skype_c2c_menu_container {display:none !important;}</CSS>');
         }
     }
     catch(e) {
@@ -270,8 +270,8 @@ SkypeClick2Call.NumberHighlightingBuilder.injectPrintStyle = function()
 SkypeClick2Call.NumberHighlightingBuilder.destroyPrintStyle = function()
 {
     try {
-        // Remove style
-        $('style[data-c2c="c2c_print_container_style"]').remove();
+        // Remove CSS
+        $('CSS[data-c2c="c2c_print_container_style"]').remove();
     }
     catch(e) {
         Log("Exception in SkypeClick2Call.NumberHighlightingBuilder.destroyPrintStyle: " + e.message);

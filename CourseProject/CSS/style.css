@@ -1,0 +1,11 @@
+* {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#listener {
+    border: 1px solid #000000;
+}

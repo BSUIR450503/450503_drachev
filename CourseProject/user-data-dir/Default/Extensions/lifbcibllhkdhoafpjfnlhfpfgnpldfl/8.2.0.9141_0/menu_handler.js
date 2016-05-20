@@ -319,10 +319,10 @@ SkypeClick2Call.MenuInjectionHandler.getMenuCoordinates = function (element, eve
 };
 
 /**
- * Get current style property applied to the given element.
+ * Get current CSS property applied to the given element.
  *
  * @param element      the element
- * @param styleProp    the style property to be retrieved
+ * @param styleProp    the CSS property to be retrieved
  * @return the styleProp value
  */
 SkypeClick2Call.MenuInjectionHandler.getCurrentStyle = function(element, styleProp)
@@ -499,7 +499,7 @@ SkypeClick2Call.MenuInjectionHandler.buildSkypeURI = function(action, skypeProps
  * @param windowName Name for the window
  * @param width      Desired width of the window
  * @param height     Desired height of the window
- * @param style      Desired window style
+ * @param style      Desired window CSS
  */
 SkypeClick2Call.MenuInjectionHandler.openPopupWindow = function(url, windowName, width, height, style) {
     var screenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
@@ -641,7 +641,7 @@ SkypeClick2Call.MenuInjectionHandler.renderMenu = function(element)
  * value correctly (IE5 Quirks mode, IE7 mode).
  *
  * Based on the longest string present in menu, compute the its width.
- * This method is highly dependent on menu structure and style, any changes in
+ * This method is highly dependent on menu structure and CSS, any changes in
  * menu CSS or structure may break it.
  */
 SkypeClick2Call.MenuInjectionHandler.computeMenuWidth = function()
