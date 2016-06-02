@@ -1,21 +1,18 @@
 {
-  "name": "Graphics 2D",
-  "version": "49.0.2623.87",
-  "manifest_version": 2,
-  "description": "Graphics 2D Example",
-  "offline_enabled": true,
+  "background": {
+    "scripts": [ "script.js" ]
+  },
+  "browser_action": {
+    "default_icon": "icon128.png",
+    "default_title": "Web Paint"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "description": "Draw shapes, lines, and add text to live web pages and take screenshot.",
   "icons": {
     "128": "icon128.png"
   },
-  "app": {
-    "background": {
-      "scripts": ["background.js"]
-    }
-  },
-  "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCMN716Qyu0l2EHNFqIJVqVysFcTR6urqhaGGqW4UK7slBaURz9+Sb1b4Ot5P1uQNE5c+CTU5Vu61wpqmSqMMxqHLWdPPMh8uRlyctsb2cxWwG6XoGSvpX29NsQVUFXd4v2tkJm3G9t+V0X8TYskrvWQmnyOW8OEIDvrBhUEfFxWQIDAQAB",
-  "oauth2": {
-    "client_id": "903965034255.apps.googleusercontent.com",
-    "scopes": ["https://www.googleapis.com/auth/drive"]
-  },
-  "permissions": []
+  "manifest_version": 2,
+  "name": "Paint",
+  "permissions": [ "tabs", "activeTab", "\u003Call_urls>", "file:///C:/nacl_sdk/nacl_sdk/pepper_49/getting_started/curs/pnacl/Release/Paint.nmf"],
+  "version": "0.0.1"
 }
